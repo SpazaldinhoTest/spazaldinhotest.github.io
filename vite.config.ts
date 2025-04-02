@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "./", // This is crucial for GitHub Pages
+  base: "/", // Changed from "./" to "/" for GitHub Pages
   plugins: [
     react(),
     mode === 'development' &&

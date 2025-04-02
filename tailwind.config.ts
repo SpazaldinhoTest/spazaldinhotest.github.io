@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// California-inspired color palette
+				cali: {
+					sand: "#F5F2EB",
+					sunset: "#FEC6A1",
+					ocean: "#33C3F0",
+					clay: "#C66F4F",
+					sage: "#AECFBA"
 				}
+			},
+			fontFamily: {
+				sans: ['Helvetica Neue', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+				serif: ['Georgia', 'ui-serif', 'Georgia', 'Times New Roman', 'serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
